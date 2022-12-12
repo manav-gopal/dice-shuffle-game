@@ -18,7 +18,7 @@ dice.addEventListener('click', () => {
         console.log(randomeIndex + 1);
         suffle += 360;
         img1.style.transform = 'rotate('+ suffle +'deg)';
-        img1.src = "../icons/n" + (randomeIndex + 1) + ".png";
+        img1.src = "/icons/n" + (randomeIndex + 1) + ".png";
         
         if (p1 == true) {
             p1_chance -= 1;
